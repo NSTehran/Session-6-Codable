@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.6.0)
+  - MoreCodable (0.1.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - MoreCodable (from `https://github.com/tattn/MoreCodable.git`)
+
+EXTERNAL SOURCES:
+  MoreCodable:
+    :git: https://github.com/tattn/MoreCodable.git
+
+CHECKOUT OPTIONS:
+  MoreCodable:
+    :commit: 1fe8c6d8a4acd6e6c5aeffe6e6397956d986d269
+    :git: https://github.com/tattn/MoreCodable.git
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  MoreCodable: eb08861583c094890d854dfd8c9315f4f45a034e
+
+PODFILE CHECKSUM: 428940af598dc8895a99939ac39a74fb587b5343
+
+COCOAPODS: 1.4.0
