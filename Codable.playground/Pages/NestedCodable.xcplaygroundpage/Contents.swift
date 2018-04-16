@@ -2,7 +2,7 @@
 //: # Playground for presenting Simple Nested Codable
 import Foundation
 
-//: ### Decoding From JSON string to Message Object which cotain a from Person object
+//: ### Decoding From JSON string to Message Object which contain a from Person object
 //:1. Create A simple json `Data` from `JSON` String
 /*:
  A Message JSON Object
@@ -59,7 +59,7 @@ do {
  */
     let message = try jsonDecoder.decode(Message.self,from:jsonData)
     
-//:6. print Decoded Person Object
+//:6. print Decoded `Message` Object
     print("""
         message = \(message.message)
         create = \(message.create)
